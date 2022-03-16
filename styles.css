@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+ background-color: #f1f1f1;
+ color: #0f141e;
+
+ font-size: 16px;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif;
+ /*font-family: sans-serif;*/
+ /*font: normal 16px 'Roboto', 'sans-serif;';*/
+}
+
+a{
+color: #696969;;
+text-decoration: none;
+}
+
+a: hover{
+	text-decoration: underline;
+}
+.container{
+	padding-top: 30px;
+	max-width: 750px;
+	margin: auto;
+}
+
+
+.info {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 700px){
+	.info{
+		display: block;
+		text-align: center;
+	}
+}
+
+.info p{
+	color: #86898f;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.info-text {
+	margin-left: 40px;
+}
+
+.list{
+ padding: 0 20px;
+}
+
+.list li{
+color: #696969;
+margin-bottom: 5px;
+}
+
+
+.avatar{
+width: 200px;
+border-radius: 28px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.hobby{
+margin-bottom: 20px;	
+background: #FFE4B5;
+padding: 15px;
+border: 5px ;
+border-radius: 28px;
+}
+
+.job{
+margin-bottom: 20px;
+background: #87CEEB;
+padding: 15px;
+border: 5px ;
+border-radius: 28px;	
+}
+
+.table{
+	width: 100%;
+}
+
+.table td{
+	padding-bottom: 5px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+	color: #696969;
+}
+
+.mylife {
+background: #90EE90;
+padding: 15px;
+border: 5px ;
+border-radius: 28px;
+margin-bottom: 20px;
+}
+
+.card{
+	padding: 15px 20px;
+	background: white;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.form-groupe label {
+	display: block;
+	font-size: 14px;
+	color: #696969;
+}
+
+.form-groupe input,
+.form-groupe textarea{
+	width: 100%;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+	background: transparent;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form-groupe {
+	width: 50%;
+	margin-right: 20px;
+}

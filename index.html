@@ -3,82 +3,83 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Великий </title>
+	<title>Резюме</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="blank.jpg">
 </head>
 <body>
-	<table>
-		<tr>
-			<th><img src="lyxyri.jpg" width="500"></th>
-			<th><h1>Антоха Величайший</h1><br>
-			<h3><em>Победитель по жизни (точнее жизнь победитель по Антохе)</em></h3></th>
-		</tr>
-	</table>
-<!--	<img src="lyxyri.jpg" width="500">
-	<h1>Антоха Величайший</h1>
-	<h3><em>Победитель по жизни (точнее жизнь победитель по Антохе)</em></h3>-->
-	<h2>Мои хобби</h2>
-	<ol>
-		<li>Работать 24/7</li>
-		<li>Ездить на машине</li>
-		<li>Работать 24/7</li>
-		<li>Плавать в бассейне</li>
-		<li>Работать 24/7</li>
-		<li>Проводить время с друзьями</li>
-		<li>Работать 24/7</li>
-		<li>Путешествовать</li>
-		<li>Работать 24/7</li>
-	</ol>
+	<div class="container">
+		<div class="info">
+			<img src="avatar.jpg" class="avatar">
+				<div class="info-text">
+				<h1>Антон Подкорытов</h1>
+				<p>Хочу разработать сервис, которым будут пользоваться все, кто хочет исколесить эту планету на своей любимой бричке.</p>
+				<h2>Социальные сети</h2>
+				<a href="https://vk.com/seplugins" target="_blank"> ВКонтакте</a>
+				|
+				<a href="https://www.instagram.com/antoha_podkorytov/" target="_blank">Instagram</a>
+				</div>
+		</div> 
+		<div class="hobby">
+			<h2>Увлечения</h2>
+			<ol class="list">
+				<li>Путешествовать</li>
+				<li>Автомобили и все, что с ними связано</li>
+				<li>Техника</li>
+				<li>Музыка</li>
+			</ol>
+		</div>
+		<div class="job">	
+		<h2>Опыт работы</h2>
+		<table class="table">
+			<tr>
+				<td>ОАО "ФПК"</td>
+				<td>Проводник</td>
+				<td>2016-2016</td>
+			</tr>
+			<tr>
+				<td>ООО "Нью-форс Гидравлик"</td>
+				<td>Инженер отдела продаж</td>
+				<td>2017-2018</td>
+			</tr>
+			<tr>
+				<td>ИП Гребенщиков</td>
+				<td>Курьер</td>
+				<td>2018-2022</td>
+			</tr>
+		</table>
+		</div>	
+			<div class="mylife">
+		<h2>О себе</h2>
+		<p>Человек, который живет мыслью о том, что должен приносить пользу людям своим трудом. Это мой первый сайт-экспиремент.
+			Этим сайтом я хочу задать отметку начала своего пути в сфере IT и показать, что жизнь можно изменить к лучшему - стоит лишь немного постараться.
+			Ранее работал везде, где только предоставлялась возможность.
+			Не судите строго - лучше посмотрите следующие мои проекты и поверьте - чем дальше, тем круче!
+		</p>
+		<ol class="list">
+			<li>Ссылка</li>
+			<li>Ссылка</li>
+			<li>Ссылка</li>
+		</ol>	
+			</div>
 
-	<h2>Социальные сети</h2>
-	<ul>
-		<li><a href="https://vk.com/seplugins" target="_blank"> ВКонтакте</a></li>
-		<li><a href="https://www.instagram.com/antoha_podkorytov/" target="_blank">Instagram</a></li>
-	</ul>
-
-	<h2>Как со мной связаться</h2>
-	<form>
-		<label for="name"> Ваше имя:</label>	
-		<input type="text" id="name" placeholder="В жопу раз или...">
-		<br>
-		<label for="number"> Телефон:</label>	
-		<input type="text" id="number" placeholder="Пики точеные или...">
-		<br>
-		<input type="submit" >
-	</form>
-
-	<h2>Опыт работы</h2>
-
-	<table border="1">
-		<caption>Просто понять как это выглядит</caption>
-		<tr>
-			<th>Место работы</th>
-			<th>Должность</th>
-			<th>Годы</th>
-		</tr>
-		<tr>
-			<td>ОАО "ФПК"</td>
-			<td>Проводник</td>
-			<td>2016-2016</td>
-		</tr>
-		<tr>
-			<td>ООО "Нью-форс Гидравлик"</td>
-			<td>Инженер отдела продаж</td>
-			<td>2017-2018</td>
-		</tr>
-		<tr>
-			<td>ИП Гребенщиков</td>
-			<td>Курьер</td>
-			<td>2018-2022</td>
-		</tr>
-	</table>
-
-	<h2>Краткий обзор моей жизни</h2>
-	<ul>
-	<li><a href="history.html" target="_blank">Очень грустная история о моей жизни</a></li>
-	<li><video controls width="600" height="450" poster="sm.jpg">
-		<source src="demo.mp4" ></li>	
-
-
-	</ul>
+		<div class="contact">
+			<h2>Как со мной связаться</h2>
+				<div class="row">
+					<div class="form-groupe">
+					<label for="name"> Ваше имя:</label>	
+					<input type="text" id="name" placeholder="Введите имя...">
+					</div>
+					<div class="form-groupe">
+					<label for="email"> email:</label>	
+					<input type="email" id="email" placeholder="Ввведите email...">
+					</div>
+				</div>
+					<div class="form-groupe">
+						<textarea id="text" rows="2" cols="15"></textarea>
+					</div>
+					<input type="submit" value="Отправить" >
+		</div>	
+	</div>
 </body>
 </html>
